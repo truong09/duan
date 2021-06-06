@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #001a09;
+}
+
+.container {
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding: 2vh 3vw 2vh 3vw;
+    background-color: #f2f2f2;
+    z-index: -2;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.personInfo {
+    font-size: 1.2em;
+    padding:  55px 0 0 130px;
+}
+
+.header {
+    font-weight: 700;
+    color: purple;
+    margin-bottom: 3vh;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+}
+.info-row label, .info-row p{
+    display: inline-block;
+}
+.info-row label {
+    width: 150px;
+}
+.info-row p {
+    margin-left: 2vw;
+}
+
+.avatar-container img {
+    margin-top: 2vh;
+    height: 50vh;
+    width: 50vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .button-font{
+    font-family: 'Lato', sans-serif;
+  }
+  .wrapper{
+    transform: translate(2vw, 2vh);
+    margin-bottom: 5vh;
+  }
+  .link_wrapper{
+    position: relative;
+  } 
+  a.anibtn{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+  }
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(135deg);
+    fill: #2ecc71;
+    transition: all .35s;
+  }
+  a.anibtn:hover{
+    width: 200px;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
+  a.anibtn:hover + .icon{
+    border: 3px solid #2ecc71;
+    left: -47px;
+  }
+
+.contract {
+    margin-top: 8vh;
+    font-size: 1.2em;
+}
+
+.exam, .graduate {
+    margin-top: 5vh;
+    font-size: 1.2em;
+}
+
+.study h4, .graduteResult h4 {
+    font-weight: 500;
+    color: #e63900;
+}
+
+.final-score {
+    width: 100%;
+    border-spacing: 1px;
+    border-collapse: collapse;
+    border: 1px solid #111;
+}
+
+.final-score td, .final-score th {
+    text-align: center;
+    padding: 6px;
+    border: 2px solid #111;
+}
+
+.final-score td {
+    width: 11.11%;
+}

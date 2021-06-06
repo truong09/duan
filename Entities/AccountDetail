@@ -1,0 +1,35 @@
+Bảng lưu thông tin chi tiết tài khoản: AccountDetail			
+AccountDetailID	int	primarykey
+AccountID		varchar(36)	Id bảng account
+Email			varchar(100)	tài khoản email
+DateOfBirth		Date	ngày sinh
+Gender			bit(1)	giới tính
+Nation          varchar(100)  dân tộc
+FullName		varchar(255)	tên người dùng
+Address			longtext	địa chỉ
+Identification	varchar(50)	số cmt
+PhoneNumber		varchar(11)	số điện thoại
+PermanentResidence	varchar(255)	Hộ khẩu thường trú
+ProvinceName	varchar(100)	nơi sinh(tỉnh)
+IsPrioritize	bit(1)	có phải đối tượng ưu tiên không
+Area			int	khu vực(nhớ đánh theo thứ tự 1-2-3-4)
+GraduatingYear	int	năm tốt nghiệp
+HKIGrade10		double	điểm học kì 1 lớp 10
+HKIIGrade10		double	điểm kì 2 lớp 10
+TBGrade10		double	điểm tb lớp 10
+HKIGrade11		double	học kì 1 lớp 11
+HKIIGrade11		double	học kỳ 2 lớp 11
+TBGrade11		double	điểm tb lớp 11
+HKIGrade12		double	học kì 1 lớp 12
+HKIIGrade12		double	học kì 2 lớp 12
+TBGrade12		double	tb lớp 12
+Math			double	môn toán
+Literature		double	môn văn
+English			double	ngoại ngữ
+Physics			double	vật lý
+Chemistry		double	hóa
+Biology			double	sinh
+History			double	lịch sử
+Geography		double	môn địa lí
+GDCD			double	giáo dục cd
+AccountDate     datetime ngày đăng ký tài khoản

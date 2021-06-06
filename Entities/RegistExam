@@ -1,0 +1,8 @@
+bảng lưu thông tin đợt thi: RegistExam			
+RegistExamID	varchar(36)	primarykey	
+RegistNumber	int	        stt
+IsRegistAll		bit(1)		Mở đóng cả các ca thi
+StartedDate 	DateTime : ngày mở đăng ký đợt thi
+FinishDate      datetime : ngày đóng cả đợt đăng ký
+UnitRegist      int      đợt thi số mấy
+CreateYear      int      Năm tạo đợt thi

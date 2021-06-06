@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+fieldset {
+  display: block;
+}
+
+fieldset div {
+  margin: 15px;
+}
+
+.information {
+    margin: 30px;
+}
+.information fieldset{
+    margin-top: 2vh;	
+}
+.information input{
+    margin: 5px;
+}
+.information p{
+    text-align: center;
+}
+
+.score-table input{
+    width: 3.5vw;
+    margin: 15px;
+}
+
+.score-table {
+  width: 100%;
+}
+
+.information button {
+    float: right;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    border-radius: 3px;
+    padding: 7px;
+    width: 80px;
+    color: white;
+  }
+  
+  .cf-btn {
+    background-color: #219653;
+  }
+  
+  .cf-btn:hover {
+    background-color: #12542f;
+  }
+  
+  .cancel-btn {
+    background-color: #ff3333;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #cc0000;
+  }
+
+  .score-table, .score-table th, .score-table td {
+    border: 1px solid #111;
+    text-align: center;
+  }

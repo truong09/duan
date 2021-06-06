@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 30px;
+}
+
+img.imgC {
+    height: 30px;
+    float: left;
+    margin-top: 3%;
+
+}
+
+h5.timeSign {
+    float: left;
+    margin-left: 3%;
+}
+
+div.timeSignC {
+    margin-left: 70%;
+    margin-top: 3%;
+}
+
+table {
+    margin: 3%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    border: 2px solid #111;
+}
+
+th {
+    border: 2px solid #111;
+    text-align: center;
+    padding: 8px;
+}
+
+tr {
+    border: 2px solid #111;
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    border-top: 1px solid #dddddd;
+    border-left: 2px solid #111;
+    border-right: 2px solid #111;
+    text-align: center;
+}
+
+

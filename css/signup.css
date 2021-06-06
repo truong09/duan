@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+    background-color: #f2f2f2;
+}
+.sign_up {
+	background-color: #E5E5E5;
+	margin: 0;
+}
+
+.container {
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 1.3em;
+}
+
+.form-container {
+    display: block;
+    margin: auto;
+}
+
+.form-container h1 {
+	text-align: center;
+}
+
+.form-element::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.form-element {
+    margin: auto;
+    margin-bottom: 2vh;
+    width: 700px;
+    /* border: 1px solid #111; */
+}
+
+.form-element label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+    vertical-align: middle;
+}
+.form-element input[type = "text"], .form-element input[type = "password"]  {
+    width: 480px;
+    height: 25px;
+    display: inline-block;
+}
+
+.form-element select  {
+    padding: 5px;
+	margin-right: 1vh;
+    vertical-align: middle;
+}
+
+.form-element input[type = "radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+}
+
+.form-element p {
+	position: relative;
+	left: 200px;
+}
+
+button {
+	font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 6px;
+    color: white;
+    border-radius: 9px;
+    border: none;
+    float: right;
+}
+
+.exit-btn {
+    background-color: #ff3333;
+}
+
+.exit-btn:hover {
+    background-color: #cc0000;
+}
+
+.submit-btn {
+    background-color: #219653;
+}
+
+.submit-btn:hover {
+    background-color: #12542f;
+}
+
+/* The alert message box */
+.alert {
+	padding: 20px;
+	background-color: #f44336; /* Red */
+	color: white;
+	margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+	color: black;
+  }

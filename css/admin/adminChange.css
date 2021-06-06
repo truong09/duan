@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.wrapper {
+  margin: 60px 0 40px 0;
+}
+
+.header {
+  padding: 8px 20px;
+}
+.header a {
+  float: right;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 900;
+}
+.header a:hover {
+  color: black;
+}
+.header input[type=number] {
+  width: 100px;
+}
+
+td input {
+  width: 100%;
+}
+
+.interactbtn{
+  padding: 5px;
+}
+.interactbtn img{
+  width: 20px;
+  height: 20px;
+}
+
+.ignore {
+  opacity: 0.7;
+}
+
+.button-shelf button {
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.addbtn {
+  font-weight: 900;
+}
+
+.add-wrapper{
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+  align-items: center;
+}
+.add-wrapper button {
+  width: 100%;
+  font-size: 2em;
+}
+
+.empty-background {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 100%;
+	height: 40vh;
+	opacity: 0.7;
+}
+
+.empty-background strong {
+  font-size: 1.5em;
+}

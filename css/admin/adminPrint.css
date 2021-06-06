@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 30px;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #111;
+}
+
+.alert {
+    text-align: center;
+    font-size: 2em;
+}
+.alert a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+

@@ -1,0 +1,5 @@
+action: là folder dùng để  truy vấn database xử lý dữ liệu
+css, html, js : code fontend
+Entities: khi mọi người cần lưu gì thì viết entity vào đây để server 
+còn tạo bảng lưu dữ liệu(viết bằng tiếng anh nhé). Nhớ giải thích dùng để lưu cái gì.
+database: mọi người import file sql vào nhé

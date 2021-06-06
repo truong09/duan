@@ -1,0 +1,5 @@
+bảng tỉnh thành Province			
+			
+ProvinceID		int	khóa chính	
+ProvinceName	varchar(50)	tên tỉnh thành	
+ProvinceCode	varchar(11)	mã tỉnh thành(zipcode)	

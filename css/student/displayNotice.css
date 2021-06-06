@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.page, .notice-list {
+    display: block;
+    width: 60%;
+    margin: auto;
+
+}
+.page {
+}
+.notice-list a {
+    text-decoration: none;
+    display: block;
+}
+.notice-list a:hover {
+    color: red;
+}
+
+.header, .notice-list, .content {
+    padding: 30px;
+}
+
+.page h1 {
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.time {
+    margin: 0;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.content {
+    background-color: white;
+    min-height: 70vh;
+}
+
+.pagination {
+    background-color: #219653;
+    color: white;
+}

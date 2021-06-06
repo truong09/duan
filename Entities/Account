@@ -1,0 +1,8 @@
+bảng account
+
+AccountID	varchar(36)	primarykey
+UserName	varchar(255)	tên đăng nhập
+Password	varchar(50)	mật khẩu
+AccountType	int	loại người dùng
+AccountDate datetime  ngày đăng ký tk
+GroupDate   varchar(11) Nhóm đăng kí

@@ -1,0 +1,5 @@
+Bảng lưu thông báo : NewFeed			
+NewFeedID		int	primarykey	
+Title			varchar(100)	tiêu đề bảng tin	
+Content			longtext	Nội dung	
+CreatedDate		date	Ngày tạo	

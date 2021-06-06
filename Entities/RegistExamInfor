@@ -1,0 +1,7 @@
+bảng lưu thông tin ca thi: RegistExamInfor			
+RegistExamInforID	int			primarykey	
+AccountID			varchar(36)	id bảng account	
+RegistExamDetailID	varchar(36)	id bảng registexamdetail	
+
+IdentificationNumber int	số báo danh của từng ca thi
+

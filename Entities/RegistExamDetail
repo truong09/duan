@@ -1,0 +1,13 @@
+bảng lưu thông tin ca thi chi tiết: 
+RegistExamDetail
+RegistExamDetailID	varchar(36)	primarykey
+RegistExamID	varchar(36)	id bảng RegistExam
+StartedDate		datetime	ngày bắt đầu mở đăng ký
+FinishDate		Datetime	ngày đóng đăng ký
+ExamDate		datetime	ngày thi
+ExamTime		varchar(50)	thời gian thi
+Examee			int	số lượng thí sinh đã đăng ký
+ExameeMax		int	số lượng thí sinh tối đa
+Location		varchar(500)	địa điểm thi
+IsRegist		bit(1)	mở đóng đăng ký
+UnitExam		int	ca thi số mấy
